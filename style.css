@@ -1,16 +1,17 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
     background-color: #CAC5BF;
     font-family: 'Montserrat', sans-serif;
-    ;
+
 }
 
 .container{
-    max-width: 900px;
+    max-width: 1000px;
     background-color: #F5F4EF;
     margin: 0 auto;
     padding: 50px;
@@ -35,11 +36,15 @@ img {
     margin-left: 20px;
 }
 
+.contact-main{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
 
 .contact{
     float: left;
     font-size: 14px;
-    width: 80%;
   
 }
 
@@ -167,7 +172,6 @@ footer p{
     margin-bottom: 20px;
 }
  
-
 
 
  
