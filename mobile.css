@@ -13,7 +13,7 @@ body{
 
 .container{
     background-color: #F5F4EF;
-    max-width: 1000px;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -28,10 +28,21 @@ body{
     margin-bottom: 30px;
     text-align: center;
 }
+
+.contact-main{
+    display: grid;
+    grid-template-columns: 0% 100%;
+}
+
 .contact{
     width:100%;
     font-size: 12px;
     text-align: center;
+}
+
+.contact ul li{
+    display: block;
+    float: center;
 }
 
 .left-div{
@@ -64,14 +75,14 @@ body{
 .footer-contact ul li{
     text-decoration: none;
     list-style: none;
-    display: block;
-    margin: 20px;
+    display: inline;
+    margin: 3px;
     
 }
 
 .footer-contact ul li a{
     text-decoration: none;
-  font-size: small;
+  font-size: 14px;
   color: black;
   
 } 
@@ -80,5 +91,6 @@ footer .right-div{
     width: 100%;
     margin-bottom: 30px;
 }
+
 
 
