@@ -64,8 +64,8 @@ body{
 .footer-contact ul li{
     text-decoration: none;
     list-style: none;
-    display: inline;
-    margin: 2px;
+    display: block;
+    margin: 20px;
     
 }
 
